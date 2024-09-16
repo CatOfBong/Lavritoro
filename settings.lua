@@ -1,5 +1,25 @@
 data:extend({
 	{
+		default_value=999,
+		localised_description="Как быстро игрок могёт шахта ресурсы и сущности.",
+		localised_name="Моя скорость",
+		maximum_value=999,
+		minimum_value=1,
+		name="miningSpeed",
+		setting_type="startup",
+		type="int-setting",
+	},
+	{
+		default_value=1000000,
+		localised_description="Максимум здоровья у игрока.",
+		localised_name="Здоровье Игрока",
+		maximum_value=1000000,
+		minimum_value=1,
+		name="playerHealth",
+		setting_type="startup",
+		type="int-setting",
+	},
+	{
 		default_value=100,
 		localised_description="Как далеко игрок может влиять на мир, используются не все возможности.",
 		localised_name="Дорогой Игрок ",
